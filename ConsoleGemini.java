@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 public class ConsomeGemini {
 
-    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCYR4GPRUoAwdVxDMoXwo0WRWcwxOlAp8A";
+    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=API";
     private static final Pattern RESPOSTA_PATTERN = Pattern.compile("\"text\"\\s*:\\s*\"([^\"]+)\"");
     private static final String LOG_FILE = "chat_log.txt";
 
